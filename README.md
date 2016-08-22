@@ -2,15 +2,15 @@
 
 "In cryptography, the [one-time pad (OTP)][1] is an encryption technique that cannot be cracked if used correctly."
 
-It is fairly easy to do with pen and paper, yet still time consuming. That is why I started working on this script in late 2015, so anyone could easily uilise this amazing encryption technique.
+It is fairly easy to do with pen and paper, yet still time consuming. That is why I started working on this script in late 2015, so anyone could easily utilise this amazing encryption technique.
 
 The other reason for creating it was to give myself a challenge. The most challanging part was to translate the technique from pen and paper to bash script, and then how to sequence it.
 
 ### How to deploy and use securely
 
-If your hard drive is encrypted it should be fairly safe to keep shOTPad on there with your pads. However, the more ideal choice would be to keep them on an encrypted thumbdrive.
+If your hard drive is encrypted it should be fairly safe to keep shOTPad on there with your pads. However, the more ideal choice would be to keep them on an encrypted thumb drive.
 
-Passing on a pad to your contact is best done in person, preferably on an encrypted thumbdrive. Your second choice would be online through any encrypted channel, such as encrypted email.
+Passing on a pad to your contact is best done in person, preferably on an encrypted thumb drive. Your second choice would be online through any encrypted channel, such as encrypted email.
 
 ### How the one-time pads work
 
@@ -40,7 +40,9 @@ Arrange this when you share a pad, that you either take turns in messaging each 
 
 ### How to use shOTPad
 
-The script itself is created to be very straight forward and simple. If you know and understand how the one-time pad encryption works, the script itself should be selfexplanatory.
+The script itself is created to be very straight forward and simple. If you know and understand how the one-time pad encryption works, the script itself should be self-explanatory.
+
+A sample pad is included, *otp-sample.pad*. Play around with it as much as you like. **Do not ever use to for messaging a contact!**
 
 ### Roadmap
 
