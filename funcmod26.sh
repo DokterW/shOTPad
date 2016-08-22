@@ -1,5 +1,6 @@
 #!/bin/bash
 # shOTPad v0.1 by Dr. Waldijk
+# https://github.com/DokterW/shOTPad - https://dokterw.me/
 # A one-time pad bash script that creates one-time pads,
 # encrypts and decrypts messages.
 # -----------------------------------------------------------------------------------
