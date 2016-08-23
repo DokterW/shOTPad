@@ -48,6 +48,4 @@ A sample pad is included, *otp-sample.pad*. Play around with it as much as you l
 
 * Put the whole script in one file.
 
-_Updated: 2015-09-30_
-
 [1]: https://en.wikipedia.org/wiki/One-time_pad
