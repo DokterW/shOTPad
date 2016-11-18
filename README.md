@@ -46,6 +46,7 @@ A sample pad is included, *otp-sample.pad*. Play around with it as much as you l
 
 ### Roadmap
 
+**2016-11-18**
 * Put the whole script in one file.
 
 [1]: https://en.wikipedia.org/wiki/One-time_pad
