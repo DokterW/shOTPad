@@ -441,6 +441,7 @@ do
             ONETIMEPAD=""
             OTPLOAD=""
             OTPVER=""
+            OTPNAM=""
             printf "\033c"
             break
         ;;
