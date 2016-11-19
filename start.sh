@@ -6,8 +6,7 @@
 # Read the README.md for more info.
 # By running this script you agree to the license terms.
 # Funtions --------------------------------------------------------------------------
-funcmod26 ()
-{
+funcmod26 () {
     MOD26="26"
     MOD26NEG="-1"
     if [ "$CIPHER" -ge "$MOD26" ]
@@ -18,8 +17,7 @@ funcmod26 ()
         CIPHER=$(expr $CIPHER + $MOD26)
     fi
 }
-funcpad ()
-{
+funcpad () {
     if [ "$OTPADKEY" = a ] || [ "$OTPADKEY" = A ]
         then
         OTPADKEY="0"
