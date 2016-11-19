@@ -1,5 +1,5 @@
 #!/bin/bash
-# shOTPad v1.0 by Dr. Waldijk
+# shOTPad v1.0.1 by Dr. Waldijk
 # https://github.com/DokterW/shOTPad - https://dokterw.me/
 # A one-time pad bash script that creates one-time pads,
 # encrypts and decrypts messages.
@@ -257,7 +257,7 @@ funcpad ()
 fi
 }
 # -----------------------------------------------------------------------------------
-OTPVER="1.0"
+OTPVER="1.0.1"
 OTPNAM="shOTPad"
 while :
 do
