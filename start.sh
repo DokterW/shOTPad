@@ -1,12 +1,12 @@
 #!/bin/bash
-# shOTPad v2.0
+# shOTPad v2.1
 # Made by Dr. Waldijk
 # A one-time pad bash script that creates one-time pads, encrypts and decrypts messages.
 # Read the README.md for more info, but you will also find some info below.
 # By running this script you agree to the license terms.
 # Config ----------------------------------------------------------------------------
 OTPNAM="shOTPad"
-OTPVER="2.0"
+OTPVER="2.1"
 # OTPARG=$1
 # Funtions --------------------------------------------------------------------------
 funcmod26 () {
@@ -57,7 +57,7 @@ funcpad () {
         esac
     elif [[ "$1" = "cipher" ]]; then
         case $CIPHER in
-            [1-9]|[1-][0-9])
+            [1-9]|[1-2][0-9])
                 CIPHER="${OTPABC[$CIPHER]}"
                 echo "${OTPABC[$CIPHER]}"
             ;;
@@ -159,7 +159,11 @@ do
             echo ""
             echo "Loaded one-time pad has ${#OTPAD} characters left."
             echo ""
-            echo "1. Enter message you wish to encrypt"
+            if [[ $OTPADMENU = 2 ]]; then
+                echo "1. Enter message you wish to encrypt"
+            elif [[ $OTPADMENU = 3 ]]; then
+                echo "1. Enter message you wish to decrypt"
+            fi
             echo "2. Back"
             echo ""
             read -p "Enter choice: " -s -n1 OTPKEY
@@ -207,7 +211,7 @@ do
                         echo $OTPAD > $ONETIMEPAD
                     done
                     clear
-                    echo "[OTPad - v$OTPVER]"
+                    echo "[$OTPNAM - v$OTPVER]"
                     echo ""
                     echo "Message:"
                     echo "> $OTPMESSAGE"
