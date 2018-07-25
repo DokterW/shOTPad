@@ -46,7 +46,7 @@ A sample pad is included, *otp-sample.pad*. Play around with it as much as you l
 
 ### Roadmap
 
-* n/a
+* Improve menu
 
 ### Changelog
 
