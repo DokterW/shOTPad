@@ -12,6 +12,18 @@ If your hard drive is encrypted it should be fairly safe to keep shOTPad on ther
 
 Passing on a pad to your contact is best done in person, preferably on an encrypted thumb drive. Your second choice would be online through any encrypted channel, such as encrypted email.
 
+### Install and Upgrade
+
+Go to the path where you want to install it.
+
+If you run *install_shotpad.sh* in /home/USER/ it will be installed to /home/USER/shOTPad
+
+`wget -q -N --show-progress https://raw.githubusercontent.com/DokterW/shOTPad/master/install_shotpad.sh`
+
+`chmod +x install_shotpad.sh`
+
+`./install_shotpad.sh`
+
 ### How the one-time pads work
 
 Keep in mind that one pad is for you, and one is for your contact.
@@ -46,12 +58,17 @@ A sample pad is included, *otp-sample.pad*. Play around with it as much as you l
 
 ### Roadmap
 
-* Improve menu
+* n/a
 
 ### Changelog
 
+#### 2018-07-26
+* Updated the UI to make it more efficient and usable.
+* Added an install and upgrade script.
+
 #### 2018-07-25
 * Character reading has been improved and mod26 has no need for a dirty fix.
+* Major bug has been squashed! Previous version did not correctly encrypt. Example: Letter C with OTP letter C should have become F, but instead it turned into an E. This is now corrected! Sorry for the inconvenience. However, this would not effect the encryption if messages were exchanged within shOTPad.
 
 #### 2016-11-19
 * Put the whole script in one file.
